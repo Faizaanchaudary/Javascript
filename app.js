@@ -1,5 +1,6 @@
-function ageName(age , name){
-    console.log(name ,'is ' + age ,'years old');
+function avg(x , y){
+    return (( x+y)/2);
 }
+let a=5,b=6;
 
-ageName('22' , ' Mosh');
+console.log('The Average of a and b is = ' , avg(a ,b),'\nDone ');
