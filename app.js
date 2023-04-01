@@ -1,6 +1,7 @@
-function avg(x , y){
-    return (( x+y)/2);
+function mulTable(){
+    for(i=1; i<=10; i++){
+        console.log(`2 x ${i} = ${2*i}`);
+    }
 }
-let a=5,b=6;
 
-console.log('The Average of a and b is = ' , avg(a ,b),'\nDone ');
+mulTable();
