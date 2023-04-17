@@ -27,9 +27,9 @@ if(!subject) return res.status(404).send('The Subject With Given Id Was Not Foun
 res.send(subject);
 });
 
-
 app.post('/api/subjects' , (req , res)=>{
-    const {error} = validateSubject(req.body);
+    const {error} = validateSubject(req.body) 
+    
     if (error) return res.send(error.details[0].message);
 const subject ={
     id : subjects.length + 1,
